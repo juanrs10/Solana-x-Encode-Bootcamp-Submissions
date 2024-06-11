@@ -1,0 +1,16 @@
+Create a keypair
+-mkdir ~/my-solana-wallet
+-solana-keygen new --outfile ~/my-solana-wallet/my-keypair.json
+displaying result
+-solana-keygen pubkey ~/my-solana-wallet/my-keypair.json
+verify address
+-solana-keygen verify <PUBKEY> ~/my-solana-wallet/my-keypair.json
+Connect to devnet
+-solana config set --url https://api.devnet.solana.com
+solana config get
+Get some tokens from dev net
+-solana airdrop 1 <RECIPIENT_ACCOUNT_ADDRESS> --url
+https://api.devnet.solana.com
+check balance with
+-solana balance <ACCOUNT_ADDRESS> --url
+https://api.devnet.solana.com

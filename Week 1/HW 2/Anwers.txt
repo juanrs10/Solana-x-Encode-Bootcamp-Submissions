@@ -1,0 +1,12 @@
+. How many validators are there currently?
+There are over 1528 validators according to Solana Beach stats
+. What is special about this block?
+That block is empty, there is no transaction linked to it
+. What is special about this address
+Is the Solana burn address to remove specially SOL from circulation
+. What is this transaction doing ?
+Burns 11,365,066.99 SOL to the incinerator
+. What is the largest balance you can find in an account ?
+2^64−1 Lamports, that is roughly 18,446,744,073.71 SOL
+. What advantages will the end user see when using Solana compared to other blockchains ?
+High throughput, low latency and low fees.
